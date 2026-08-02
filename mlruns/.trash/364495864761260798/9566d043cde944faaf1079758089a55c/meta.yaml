@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/364495864761260798/9566d043cde944faaf1079758089a55c/artifacts
+deleted_time: 1785605656606
+end_time: 1785605358647
+entry_point_name: ''
+experiment_id: '364495864761260798'
+lifecycle_stage: deleted
+run_id: 9566d043cde944faaf1079758089a55c
+run_name: Model 18
+run_uuid: 9566d043cde944faaf1079758089a55c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785605358568
+status: 3
+tags: []
+user_id: Syed Harshath

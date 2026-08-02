@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/447822412696860658
+creation_time: 1785607163195
+experiment_id: '447822412696860658'
+last_update_time: 1785607163195
+lifecycle_stage: active
+name: MLOps Experiment 2 - Comparing Neural Networks with different Hyperparameters

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/512016413478245128/f315a22a7a784a0e981970b3adf036d1/artifacts
+end_time: 1785156629290
+entry_point_name: ''
+experiment_id: '512016413478245128'
+lifecycle_stage: active
+run_id: f315a22a7a784a0e981970b3adf036d1
+run_name: Random Forest Classifier
+run_uuid: f315a22a7a784a0e981970b3adf036d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785156626678
+status: 3
+tags: []
+user_id: Syed Harshath

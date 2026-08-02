@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/512016413478245128/087445ae8dde44bcb00d4669a639a68a/artifacts
+end_time: 1785156626662
+entry_point_name: ''
+experiment_id: '512016413478245128'
+lifecycle_stage: active
+run_id: 087445ae8dde44bcb00d4669a639a68a
+run_name: Support Vector Machine
+run_uuid: 087445ae8dde44bcb00d4669a639a68a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785156624129
+status: 3
+tags: []
+user_id: Syed Harshath

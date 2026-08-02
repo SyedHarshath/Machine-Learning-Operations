@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/801221727301523099/a9a2e7f1146248909ad8c4c750ca0a01/artifacts
+deleted_time: 1785156487079
+end_time: 1785154343843
+entry_point_name: ''
+experiment_id: '801221727301523099'
+lifecycle_stage: deleted
+run_id: a9a2e7f1146248909ad8c4c750ca0a01
+run_name: bittersweet-hen-839
+run_uuid: a9a2e7f1146248909ad8c4c750ca0a01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785154335564
+status: 3
+tags: []
+user_id: Syed Harshath

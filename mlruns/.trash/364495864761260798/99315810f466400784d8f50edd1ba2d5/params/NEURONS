@@ -1,0 +1,19 @@
+Model 1      64
+Model 2      64
+Model 3     128
+Model 4     128
+Model 5     256
+Model 6     256
+Model 7      64
+Model 8      64
+Model 9     128
+Model 10    128
+Model 11    256
+Model 12    256
+Model 13     64
+Model 14     64
+Model 15    128
+Model 16    128
+Model 17    256
+Model 18    256
+Name: NEURONS, dtype: object

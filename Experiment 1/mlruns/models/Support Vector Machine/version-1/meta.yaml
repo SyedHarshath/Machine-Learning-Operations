@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1785158643603
+current_stage: None
+description: ''
+last_updated_timestamp: 1785158643603
+name: Support Vector Machine
+run_id: 674b19f4fdd8405899f87c750886cbba
+run_link: ''
+source: file:///D:/Workspace/MLOps%20Exercise/mlruns/870770391232370110/674b19f4fdd8405899f87c750886cbba/artifacts/Support
+  Vector Machine
+status: READY
+status_message: null
+storage_location: file:///D:/Workspace/MLOps%20Exercise/mlruns/870770391232370110/674b19f4fdd8405899f87c750886cbba/artifacts/Support
+  Vector Machine
+user_id: null
+version: 1

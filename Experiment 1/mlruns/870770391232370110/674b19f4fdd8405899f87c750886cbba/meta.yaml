@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Workspace/MLOps%20Exercise/mlruns/870770391232370110/674b19f4fdd8405899f87c750886cbba/artifacts
+end_time: 1785157456362
+entry_point_name: ''
+experiment_id: '870770391232370110'
+lifecycle_stage: active
+run_id: 674b19f4fdd8405899f87c750886cbba
+run_name: Support Vector Machine
+run_uuid: 674b19f4fdd8405899f87c750886cbba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785157450860
+status: 3
+tags: []
+user_id: Syed Harshath

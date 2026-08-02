@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/801221727301523099/f4795fb8e6a247c587dd1f298836ab86/artifacts
+deleted_time: 1785154394223
+end_time: 1785154315611
+entry_point_name: ''
+experiment_id: '801221727301523099'
+lifecycle_stage: deleted
+run_id: f4795fb8e6a247c587dd1f298836ab86
+run_name: magnificent-grub-903
+run_uuid: f4795fb8e6a247c587dd1f298836ab86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785154315489
+status: 4
+tags: []
+user_id: Syed Harshath

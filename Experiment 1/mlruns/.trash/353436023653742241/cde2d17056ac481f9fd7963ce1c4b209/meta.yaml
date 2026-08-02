@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Workspace/MLOps%20Exercise/mlruns/353436023653742241/cde2d17056ac481f9fd7963ce1c4b209/artifacts
+deleted_time: 1785156586852
+end_time: 1785156570292
+entry_point_name: ''
+experiment_id: '353436023653742241'
+lifecycle_stage: deleted
+run_id: cde2d17056ac481f9fd7963ce1c4b209
+run_name: Random Forest Classifier
+run_uuid: cde2d17056ac481f9fd7963ce1c4b209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785156567690
+status: 3
+tags: []
+user_id: Syed Harshath
