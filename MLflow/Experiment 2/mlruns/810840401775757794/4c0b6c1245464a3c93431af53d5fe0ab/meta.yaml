@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Workspace/MLOps Exercise/MLflow/Experiment 2/mlruns/810840401775757794/4c0b6c1245464a3c93431af53d5fe0ab/artifacts
+end_time: 1785775552671
+entry_point_name: ''
+experiment_id: '810840401775757794'
+lifecycle_stage: active
+run_id: 4c0b6c1245464a3c93431af53d5fe0ab
+run_name: Model 11
+run_uuid: 4c0b6c1245464a3c93431af53d5fe0ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785775545670
+status: 3
+tags: []
+user_id: Syed Harshath

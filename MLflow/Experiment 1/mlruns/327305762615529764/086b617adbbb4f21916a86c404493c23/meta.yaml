@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Workspace/MLOps Exercise/MLflow/Experiment 1/mlruns/327305762615529764/086b617adbbb4f21916a86c404493c23/artifacts
+deleted_time: 1785828317652
+end_time: 1785776979736
+entry_point_name: ''
+experiment_id: '327305762615529764'
+lifecycle_stage: deleted
+run_id: 086b617adbbb4f21916a86c404493c23
+run_name: Support Vector Machine
+run_uuid: 086b617adbbb4f21916a86c404493c23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785776974107
+status: 3
+tags: []
+user_id: Syed Harshath
