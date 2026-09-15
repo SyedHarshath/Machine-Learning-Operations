@@ -1,0 +1,33 @@
+docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                   PORTS                                         NAMES
+a77b0994b13a   java-mysql-crud-app   "java -jar app.jar"      9 seconds ago   Up 3 seconds             0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   student-java-app
+64436e3e983b   mysql:8.4             "docker-entrypoint.s…"   9 seconds ago   Up 9 seconds (healthy)   3306/tcp, 33060/tcp                           student-mysql
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students
+[](base) student@AILAB-46:~/2023510045/java-mysql-crudcurl -X POST http://localhost:8080/students \ \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Syed Harshath","email":"cap@gmail.com","course":"AI"}'
+{"id":1,"name":"Syed Harshath","email":"cap@gmail.com","course":"AI"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students
+[{"id":1,"name":"Syed Harshath","email":"cap@gmail.com","course":"AI"}](base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X PUT http://localhost:8080/stcurl -X PUT http://localhost:8080/students/1 \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Syed Harshath","email":"cap@gmail.com","course":"Artificial Intelligence"}'
+{"id":1,"name":"Syed Harshath","email":"cap@gmail.com","course":"Artificial Intelligence"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students/1
+{"id":1,"name":"Syed Harshath","email":"cap@gmail.com","course":"Artificial Intelligence"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X DELETE http://localhost:8080/students/1
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"MS Dhoni","email":"mahi@gmail.com","course":"Cricket"}'
+{"id":2,"name":"MS Dhoni","email":"mahi@gmail.com","course":"Cricket"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"Glenn Maxwell","email":"maxi@gmail.com","course":"Fitness"}'
+{"id":3,"name":"Glenn Maxwell","email":"maxi@gmail.com","course":"Fitness"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:80\
+> 
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"Suresh Raina","email":"sraina@gmail.com","course":"Athletics"}'{"id":4,"name":"Suresh Raina","email":"sraina@gmail.co
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"Dale Steyn","email":"dalesteyn@gmail.com","course":"CSE"}'
+{"id":5,"name":"Dale Steyn","email":"dalesteyn@gmail.com","course":"CSE"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students
+[{"id":2,"name":"MS Dhoni","email":"mahi@gmail.com","course":"Cricket"},{"id":3,"name":"Glenn Maxwell","email":"maxi@gmail.com","course":"Fitness"},{"id":4,"name":"Suresh Raina","email":"sraina@gmail.com","course":"Athletics"},{"id":5,"name":"Dale Steyn","email":"dalesteyn@gmail.com","course":"CSE"}](base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students/1
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl http://localhost:8080/students/2
+{"id":2,"name":"MS Dhoni","email":"mahi@gmail.com","course":"Cricket"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"Mitchell Starc","email":"starc@gmail.com","course":"CSE"}'
+{"id":6,"name":"Mitchell Starc","email":"starc@gmail.com","course":"CSE"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/students   -H "Content-Type: application/json"   -d '{"name":"Syed Harshath","email":"syed@gmail.com","course":"AI"}'
+{"id":7,"name":"Syed Harshath","email":"syed@gmail.com","course":"AI"}(base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X POST http://localhost:8080/studenthttp://localhost:8080/students
+[{"id":2,"name":"MS Dhoni","email":"mahi@gmail.com","course":"Cricket"},{"id":3,"name":"Glenn Maxwell","email":"maxi@gmail.com","course":"Fitness"},{"id":4,"name":"Suresh Raina","email":"sraina@gmail.com","course":"Athletics"},{"id":5,"name":"Dale Steyn","email":"dalesteyn@gmail.com","course":"CSE"},{"id":6,"name":"Mitchell Starc","email":"starc@gmail.com","course":"CSE"},{"id":7,"name":"Syed Harshath","email":"syed@gmail.com","course":"AI"}](base) student@AILAB-46:~/2023510045/java-mysql-crud$ curl -X PUT http://localhost:8080/students/1 \                                           curl -X PUT http://localhost:8080/students/1 \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Syed Harshath","email":"syed@gmail.com","course":"Artificial Intelligence"}'
+(base) student@AILAB-46:~/2023510045/java-mysql-crud$ 
+
+

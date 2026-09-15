@@ -1,0 +1,44 @@
+services:
+  db:
+    image: mysql:8.4
+    container_name: heart-mysql-db
+    restart: unless-stopped
+
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: heartdb
+      MYSQL_USER: heartuser
+      MYSQL_PASSWORD: heartpass
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uheartuser", "-pheartpass"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  web:
+    build: .
+    container_name: heart-disease-app
+    restart: unless-stopped
+
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: heartdb
+      DB_USER: heartuser
+      DB_PASSWORD: heartpass
+      FLASK_HOST: 0.0.0.0
+      FLASK_PORT: 5000
+
+    ports:
+      - "5000:5000"
+
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  mysql_data:
